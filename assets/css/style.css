@@ -204,7 +204,12 @@ body {
   color: var(--white);
 }
 
-.w-100 { width: 100%; }
+.w-100 { width: 100%;
+  z-index: 2;
+  position: relative;
+  background-color: white;
+  border-radius: 400px;
+ }
 
 .section { padding-block: var(--section-padding); }
 
@@ -1248,12 +1253,12 @@ body {
 
   .hero .abs-img-1 {
     width: 250px;
-    right: -100px;
+    right: -145px;
     top: -60px;
   }
 
   .hero .abs-img-2 {
-    top: -180px;
+    top: -246px;
     right: 80px;
   }
 
@@ -1394,9 +1399,16 @@ body {
    * HERO
    */
 
-  .hero .abs-img-1 { width: max-content; }
+  .hero .abs-img-1 {
+    width: max-content;
+    z-index: 3;
+   }
 
-  .hero .abs-img-2 { right: 120px; }
+  .hero .abs-img-2 { 
+    right: 66px;
+    width: 291px;
+    z-index: 1;
+   }
 
 
 
